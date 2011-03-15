@@ -1,0 +1,8 @@
+c-template
+
+A minimal C project template. It requires Autotools. Steps to install the project:
+
+    autoreconf -i
+    ./configure --prefix=/tmp
+    make
+    make install
